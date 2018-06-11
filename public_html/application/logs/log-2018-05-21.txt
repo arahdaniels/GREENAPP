@@ -1,0 +1,485 @@
+INFO - 2018-05-21 00:58:54 --> Config Class Initialized
+INFO - 2018-05-21 00:58:54 --> Hooks Class Initialized
+DEBUG - 2018-05-21 00:58:54 --> UTF-8 Support Enabled
+INFO - 2018-05-21 00:58:54 --> Utf8 Class Initialized
+INFO - 2018-05-21 00:58:54 --> URI Class Initialized
+INFO - 2018-05-21 00:58:54 --> Router Class Initialized
+INFO - 2018-05-21 00:58:54 --> Output Class Initialized
+INFO - 2018-05-21 00:58:54 --> Security Class Initialized
+DEBUG - 2018-05-21 00:58:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 00:58:54 --> Input Class Initialized
+INFO - 2018-05-21 00:58:54 --> Language Class Initialized
+ERROR - 2018-05-21 00:58:54 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 05:17:46 --> Config Class Initialized
+INFO - 2018-05-21 05:17:46 --> Hooks Class Initialized
+DEBUG - 2018-05-21 05:17:46 --> UTF-8 Support Enabled
+INFO - 2018-05-21 05:17:46 --> Utf8 Class Initialized
+INFO - 2018-05-21 05:17:46 --> URI Class Initialized
+DEBUG - 2018-05-21 05:17:46 --> No URI present. Default controller set.
+INFO - 2018-05-21 05:17:46 --> Router Class Initialized
+INFO - 2018-05-21 05:17:46 --> Output Class Initialized
+INFO - 2018-05-21 05:17:46 --> Security Class Initialized
+DEBUG - 2018-05-21 05:17:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 05:17:46 --> Input Class Initialized
+INFO - 2018-05-21 05:17:46 --> Language Class Initialized
+INFO - 2018-05-21 05:17:46 --> Loader Class Initialized
+DEBUG - 2018-05-21 05:17:46 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 05:17:46 --> Helper loaded: url_helper
+INFO - 2018-05-21 05:17:46 --> Helper loaded: language_helper
+INFO - 2018-05-21 05:17:46 --> Helper loaded: html_helper
+ERROR - 2018-05-21 05:17:46 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 05:17:46 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 05:17:46 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 05:17:46 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 05:17:46 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 05:17:46 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 05:17:46 --> User Agent Class Initialized
+INFO - 2018-05-21 05:17:46 --> Controller Class Initialized
+INFO - 2018-05-21 05:17:46 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 05:17:46 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 05:17:46 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 05:17:46 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 05:17:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 05:17:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 05:17:46 --> Encryption Class Initialized
+INFO - 2018-05-21 05:17:47 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 05:17:47 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 05:17:47 --> Model Class Initialized
+INFO - 2018-05-21 05:17:47 --> Helper loaded: form_helper
+INFO - 2018-05-21 05:17:47 --> Model Class Initialized
+DEBUG - 2018-05-21 05:17:47 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 05:17:47 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 05:17:47 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 05:17:47 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 05:17:47 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 05:17:47 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 05:17:47 --> Could not find the language line "menu_aboutgreenapp"
+ERROR - 2018-05-21 05:17:47 --> Could not find the language line "menu_aboutgreenappcontent"
+INFO - 2018-05-21 05:17:47 --> File loaded: /home/greenappco/public_html/application/views/greenapp.php
+INFO - 2018-05-21 05:17:47 --> Final output sent to browser
+DEBUG - 2018-05-21 05:17:47 --> Total execution time: 0.8480
+INFO - 2018-05-21 05:28:29 --> Config Class Initialized
+INFO - 2018-05-21 05:28:29 --> Hooks Class Initialized
+DEBUG - 2018-05-21 05:28:29 --> UTF-8 Support Enabled
+INFO - 2018-05-21 05:28:29 --> Utf8 Class Initialized
+INFO - 2018-05-21 05:28:29 --> URI Class Initialized
+INFO - 2018-05-21 05:28:29 --> Router Class Initialized
+INFO - 2018-05-21 05:28:29 --> Output Class Initialized
+INFO - 2018-05-21 05:28:29 --> Security Class Initialized
+DEBUG - 2018-05-21 05:28:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 05:28:29 --> Input Class Initialized
+INFO - 2018-05-21 05:28:29 --> Language Class Initialized
+ERROR - 2018-05-21 05:28:29 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 06:56:20 --> Config Class Initialized
+INFO - 2018-05-21 06:56:20 --> Hooks Class Initialized
+DEBUG - 2018-05-21 06:56:20 --> UTF-8 Support Enabled
+INFO - 2018-05-21 06:56:20 --> Utf8 Class Initialized
+INFO - 2018-05-21 06:56:20 --> URI Class Initialized
+DEBUG - 2018-05-21 06:56:20 --> No URI present. Default controller set.
+INFO - 2018-05-21 06:56:20 --> Router Class Initialized
+INFO - 2018-05-21 06:56:20 --> Output Class Initialized
+INFO - 2018-05-21 06:56:20 --> Security Class Initialized
+DEBUG - 2018-05-21 06:56:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 06:56:20 --> Input Class Initialized
+INFO - 2018-05-21 06:56:20 --> Language Class Initialized
+INFO - 2018-05-21 06:56:20 --> Loader Class Initialized
+DEBUG - 2018-05-21 06:56:20 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 06:56:20 --> Helper loaded: url_helper
+INFO - 2018-05-21 06:56:20 --> Helper loaded: language_helper
+INFO - 2018-05-21 06:56:20 --> Helper loaded: html_helper
+ERROR - 2018-05-21 06:56:20 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 06:56:20 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 06:56:20 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 06:56:20 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 06:56:20 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 06:56:20 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 06:56:20 --> User Agent Class Initialized
+INFO - 2018-05-21 06:56:20 --> Controller Class Initialized
+INFO - 2018-05-21 06:56:20 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 06:56:20 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 06:56:21 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 06:56:21 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 06:56:21 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 06:56:21 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 06:56:21 --> Encryption Class Initialized
+INFO - 2018-05-21 06:56:21 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 06:56:21 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 06:56:21 --> Model Class Initialized
+INFO - 2018-05-21 06:56:21 --> Helper loaded: form_helper
+INFO - 2018-05-21 06:56:21 --> Model Class Initialized
+DEBUG - 2018-05-21 06:56:21 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 06:56:21 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 06:56:21 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 06:56:21 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 06:56:21 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 06:56:21 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 06:56:21 --> Could not find the language line "menu_aboutgreenapp"
+ERROR - 2018-05-21 06:56:21 --> Could not find the language line "menu_aboutgreenappcontent"
+INFO - 2018-05-21 06:56:21 --> File loaded: /home/greenappco/public_html/application/views/greenapp.php
+INFO - 2018-05-21 06:56:21 --> Final output sent to browser
+DEBUG - 2018-05-21 06:56:21 --> Total execution time: 0.8449
+INFO - 2018-05-21 06:56:22 --> Config Class Initialized
+INFO - 2018-05-21 06:56:22 --> Hooks Class Initialized
+DEBUG - 2018-05-21 06:56:22 --> UTF-8 Support Enabled
+INFO - 2018-05-21 06:56:22 --> Utf8 Class Initialized
+INFO - 2018-05-21 06:56:22 --> URI Class Initialized
+INFO - 2018-05-21 06:56:22 --> Router Class Initialized
+INFO - 2018-05-21 06:56:22 --> Output Class Initialized
+INFO - 2018-05-21 06:56:22 --> Security Class Initialized
+DEBUG - 2018-05-21 06:56:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 06:56:22 --> Input Class Initialized
+INFO - 2018-05-21 06:56:22 --> Language Class Initialized
+ERROR - 2018-05-21 06:56:22 --> 404 Page Not Found: Resources/img
+INFO - 2018-05-21 06:56:24 --> Config Class Initialized
+INFO - 2018-05-21 06:56:24 --> Hooks Class Initialized
+DEBUG - 2018-05-21 06:56:24 --> UTF-8 Support Enabled
+INFO - 2018-05-21 06:56:24 --> Utf8 Class Initialized
+INFO - 2018-05-21 06:56:24 --> URI Class Initialized
+INFO - 2018-05-21 06:56:24 --> Router Class Initialized
+INFO - 2018-05-21 06:56:24 --> Output Class Initialized
+INFO - 2018-05-21 06:56:24 --> Security Class Initialized
+DEBUG - 2018-05-21 06:56:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 06:56:24 --> Input Class Initialized
+INFO - 2018-05-21 06:56:24 --> Language Class Initialized
+ERROR - 2018-05-21 06:56:24 --> 404 Page Not Found: Resources/img
+INFO - 2018-05-21 06:56:25 --> Config Class Initialized
+INFO - 2018-05-21 06:56:25 --> Hooks Class Initialized
+DEBUG - 2018-05-21 06:56:25 --> UTF-8 Support Enabled
+INFO - 2018-05-21 06:56:25 --> Utf8 Class Initialized
+INFO - 2018-05-21 06:56:25 --> URI Class Initialized
+INFO - 2018-05-21 06:56:25 --> Router Class Initialized
+INFO - 2018-05-21 06:56:25 --> Output Class Initialized
+INFO - 2018-05-21 06:56:25 --> Security Class Initialized
+DEBUG - 2018-05-21 06:56:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 06:56:25 --> Input Class Initialized
+INFO - 2018-05-21 06:56:25 --> Language Class Initialized
+ERROR - 2018-05-21 06:56:25 --> 404 Page Not Found: Skin-confightml/index
+INFO - 2018-05-21 07:29:13 --> Config Class Initialized
+INFO - 2018-05-21 07:29:13 --> Hooks Class Initialized
+DEBUG - 2018-05-21 07:29:13 --> UTF-8 Support Enabled
+INFO - 2018-05-21 07:29:13 --> Utf8 Class Initialized
+INFO - 2018-05-21 07:29:13 --> URI Class Initialized
+INFO - 2018-05-21 07:29:13 --> Router Class Initialized
+INFO - 2018-05-21 07:29:13 --> Output Class Initialized
+INFO - 2018-05-21 07:29:13 --> Security Class Initialized
+DEBUG - 2018-05-21 07:29:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 07:29:13 --> Input Class Initialized
+INFO - 2018-05-21 07:29:13 --> Language Class Initialized
+INFO - 2018-05-21 07:29:13 --> Loader Class Initialized
+DEBUG - 2018-05-21 07:29:13 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 07:29:13 --> Helper loaded: url_helper
+INFO - 2018-05-21 07:29:13 --> Helper loaded: language_helper
+INFO - 2018-05-21 07:29:13 --> Helper loaded: html_helper
+ERROR - 2018-05-21 07:29:13 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 07:29:13 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 07:29:14 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 07:29:14 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 07:29:14 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 07:29:14 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 07:29:14 --> User Agent Class Initialized
+INFO - 2018-05-21 07:29:14 --> Controller Class Initialized
+INFO - 2018-05-21 07:29:14 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 07:29:14 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 07:29:14 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 07:29:14 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 07:29:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 07:29:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 07:29:14 --> Encryption Class Initialized
+INFO - 2018-05-21 07:29:14 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 07:29:14 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 07:29:14 --> Model Class Initialized
+INFO - 2018-05-21 07:29:14 --> Helper loaded: form_helper
+DEBUG - 2018-05-21 07:29:14 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 07:29:14 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 07:29:14 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 07:29:14 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 07:29:14 --> Final output sent to browser
+DEBUG - 2018-05-21 07:29:14 --> Total execution time: 0.8432
+INFO - 2018-05-21 07:29:15 --> Config Class Initialized
+INFO - 2018-05-21 07:29:15 --> Hooks Class Initialized
+DEBUG - 2018-05-21 07:29:15 --> UTF-8 Support Enabled
+INFO - 2018-05-21 07:29:15 --> Utf8 Class Initialized
+INFO - 2018-05-21 07:29:15 --> URI Class Initialized
+INFO - 2018-05-21 07:29:15 --> Router Class Initialized
+INFO - 2018-05-21 07:29:15 --> Output Class Initialized
+INFO - 2018-05-21 07:29:15 --> Security Class Initialized
+DEBUG - 2018-05-21 07:29:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 07:29:15 --> Input Class Initialized
+INFO - 2018-05-21 07:29:15 --> Language Class Initialized
+INFO - 2018-05-21 07:29:15 --> Loader Class Initialized
+DEBUG - 2018-05-21 07:29:15 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 07:29:15 --> Helper loaded: url_helper
+INFO - 2018-05-21 07:29:15 --> Helper loaded: language_helper
+INFO - 2018-05-21 07:29:15 --> Helper loaded: html_helper
+ERROR - 2018-05-21 07:29:15 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 07:29:15 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 07:29:15 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 07:29:15 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 07:29:15 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 07:29:15 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 07:29:15 --> User Agent Class Initialized
+INFO - 2018-05-21 07:29:15 --> Controller Class Initialized
+INFO - 2018-05-21 07:29:15 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 07:29:15 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 07:29:15 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 07:29:15 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 07:29:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 07:29:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 07:29:15 --> Encryption Class Initialized
+INFO - 2018-05-21 07:29:15 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 07:29:15 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 07:29:15 --> Model Class Initialized
+INFO - 2018-05-21 07:29:15 --> Helper loaded: form_helper
+DEBUG - 2018-05-21 07:29:15 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 07:29:15 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 07:29:15 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 07:29:15 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 07:29:15 --> File loaded: /home/greenappco/public_html/application/views/login.php
+INFO - 2018-05-21 07:29:15 --> Final output sent to browser
+DEBUG - 2018-05-21 07:29:15 --> Total execution time: 0.0302
+INFO - 2018-05-21 08:26:17 --> Config Class Initialized
+INFO - 2018-05-21 08:26:17 --> Hooks Class Initialized
+DEBUG - 2018-05-21 08:26:17 --> UTF-8 Support Enabled
+INFO - 2018-05-21 08:26:17 --> Utf8 Class Initialized
+INFO - 2018-05-21 08:26:17 --> URI Class Initialized
+INFO - 2018-05-21 08:26:17 --> Router Class Initialized
+INFO - 2018-05-21 08:26:17 --> Output Class Initialized
+INFO - 2018-05-21 08:26:17 --> Security Class Initialized
+DEBUG - 2018-05-21 08:26:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 08:26:17 --> Input Class Initialized
+INFO - 2018-05-21 08:26:17 --> Language Class Initialized
+ERROR - 2018-05-21 08:26:17 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 08:26:17 --> Config Class Initialized
+INFO - 2018-05-21 08:26:17 --> Hooks Class Initialized
+DEBUG - 2018-05-21 08:26:17 --> UTF-8 Support Enabled
+INFO - 2018-05-21 08:26:17 --> Utf8 Class Initialized
+INFO - 2018-05-21 08:26:17 --> URI Class Initialized
+INFO - 2018-05-21 08:26:17 --> Router Class Initialized
+INFO - 2018-05-21 08:26:17 --> Output Class Initialized
+INFO - 2018-05-21 08:26:17 --> Security Class Initialized
+DEBUG - 2018-05-21 08:26:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 08:26:17 --> Input Class Initialized
+INFO - 2018-05-21 08:26:17 --> Language Class Initialized
+ERROR - 2018-05-21 08:26:17 --> 404 Page Not Found: Adstxt/index
+INFO - 2018-05-21 09:01:46 --> Config Class Initialized
+INFO - 2018-05-21 09:01:46 --> Hooks Class Initialized
+DEBUG - 2018-05-21 09:01:46 --> UTF-8 Support Enabled
+INFO - 2018-05-21 09:01:46 --> Utf8 Class Initialized
+INFO - 2018-05-21 09:01:46 --> URI Class Initialized
+INFO - 2018-05-21 09:01:46 --> Router Class Initialized
+INFO - 2018-05-21 09:01:46 --> Output Class Initialized
+INFO - 2018-05-21 09:01:46 --> Security Class Initialized
+DEBUG - 2018-05-21 09:01:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 09:01:46 --> Input Class Initialized
+INFO - 2018-05-21 09:01:46 --> Language Class Initialized
+ERROR - 2018-05-21 09:01:46 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 09:01:46 --> Config Class Initialized
+INFO - 2018-05-21 09:01:46 --> Hooks Class Initialized
+DEBUG - 2018-05-21 09:01:46 --> UTF-8 Support Enabled
+INFO - 2018-05-21 09:01:46 --> Utf8 Class Initialized
+INFO - 2018-05-21 09:01:46 --> URI Class Initialized
+INFO - 2018-05-21 09:01:46 --> Router Class Initialized
+INFO - 2018-05-21 09:01:46 --> Output Class Initialized
+INFO - 2018-05-21 09:01:46 --> Security Class Initialized
+DEBUG - 2018-05-21 09:01:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 09:01:46 --> Input Class Initialized
+INFO - 2018-05-21 09:01:46 --> Language Class Initialized
+ERROR - 2018-05-21 09:01:46 --> 404 Page Not Found: Adstxt/index
+INFO - 2018-05-21 09:08:01 --> Config Class Initialized
+INFO - 2018-05-21 09:08:01 --> Hooks Class Initialized
+DEBUG - 2018-05-21 09:08:01 --> UTF-8 Support Enabled
+INFO - 2018-05-21 09:08:01 --> Utf8 Class Initialized
+INFO - 2018-05-21 09:08:01 --> URI Class Initialized
+INFO - 2018-05-21 09:08:01 --> Router Class Initialized
+INFO - 2018-05-21 09:08:01 --> Output Class Initialized
+INFO - 2018-05-21 09:08:01 --> Security Class Initialized
+DEBUG - 2018-05-21 09:08:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 09:08:01 --> Input Class Initialized
+INFO - 2018-05-21 09:08:01 --> Language Class Initialized
+ERROR - 2018-05-21 09:08:01 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 09:56:07 --> Config Class Initialized
+INFO - 2018-05-21 09:56:07 --> Hooks Class Initialized
+DEBUG - 2018-05-21 09:56:07 --> UTF-8 Support Enabled
+INFO - 2018-05-21 09:56:07 --> Utf8 Class Initialized
+INFO - 2018-05-21 09:56:07 --> URI Class Initialized
+DEBUG - 2018-05-21 09:56:07 --> No URI present. Default controller set.
+INFO - 2018-05-21 09:56:07 --> Router Class Initialized
+INFO - 2018-05-21 09:56:07 --> Output Class Initialized
+INFO - 2018-05-21 09:56:07 --> Security Class Initialized
+DEBUG - 2018-05-21 09:56:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 09:56:07 --> Input Class Initialized
+INFO - 2018-05-21 09:56:07 --> Language Class Initialized
+INFO - 2018-05-21 09:56:07 --> Loader Class Initialized
+DEBUG - 2018-05-21 09:56:07 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 09:56:07 --> Helper loaded: url_helper
+INFO - 2018-05-21 09:56:07 --> Helper loaded: language_helper
+INFO - 2018-05-21 09:56:07 --> Helper loaded: html_helper
+ERROR - 2018-05-21 09:56:07 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 09:56:07 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 09:56:07 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 09:56:07 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 09:56:07 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 09:56:07 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 09:56:07 --> User Agent Class Initialized
+INFO - 2018-05-21 09:56:07 --> Controller Class Initialized
+INFO - 2018-05-21 09:56:07 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 09:56:07 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 09:56:07 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 09:56:07 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 09:56:07 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 09:56:07 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 09:56:07 --> Encryption Class Initialized
+INFO - 2018-05-21 09:56:07 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 09:56:07 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 09:56:07 --> Model Class Initialized
+INFO - 2018-05-21 09:56:07 --> Helper loaded: form_helper
+INFO - 2018-05-21 09:56:07 --> Model Class Initialized
+DEBUG - 2018-05-21 09:56:07 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 09:56:07 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 09:56:07 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 09:56:07 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 09:56:07 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 09:56:07 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 09:56:07 --> Could not find the language line "menu_aboutgreenapp"
+ERROR - 2018-05-21 09:56:07 --> Could not find the language line "menu_aboutgreenappcontent"
+INFO - 2018-05-21 09:56:07 --> File loaded: /home/greenappco/public_html/application/views/greenapp.php
+INFO - 2018-05-21 09:56:07 --> Final output sent to browser
+DEBUG - 2018-05-21 09:56:07 --> Total execution time: 0.0966
+INFO - 2018-05-21 09:56:29 --> Config Class Initialized
+INFO - 2018-05-21 09:56:29 --> Hooks Class Initialized
+DEBUG - 2018-05-21 09:56:29 --> UTF-8 Support Enabled
+INFO - 2018-05-21 09:56:29 --> Utf8 Class Initialized
+INFO - 2018-05-21 09:56:29 --> URI Class Initialized
+INFO - 2018-05-21 09:56:29 --> Router Class Initialized
+INFO - 2018-05-21 09:56:29 --> Output Class Initialized
+INFO - 2018-05-21 09:56:29 --> Security Class Initialized
+DEBUG - 2018-05-21 09:56:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 09:56:29 --> Input Class Initialized
+INFO - 2018-05-21 09:56:29 --> Language Class Initialized
+ERROR - 2018-05-21 09:56:29 --> 404 Page Not Found: Skin-confightml/index
+INFO - 2018-05-21 14:09:50 --> Config Class Initialized
+INFO - 2018-05-21 14:09:50 --> Hooks Class Initialized
+DEBUG - 2018-05-21 14:09:50 --> UTF-8 Support Enabled
+INFO - 2018-05-21 14:09:50 --> Utf8 Class Initialized
+INFO - 2018-05-21 14:09:50 --> URI Class Initialized
+INFO - 2018-05-21 14:09:50 --> Router Class Initialized
+INFO - 2018-05-21 14:09:50 --> Output Class Initialized
+INFO - 2018-05-21 14:09:50 --> Security Class Initialized
+DEBUG - 2018-05-21 14:09:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 14:09:50 --> Input Class Initialized
+INFO - 2018-05-21 14:09:50 --> Language Class Initialized
+ERROR - 2018-05-21 14:09:50 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 15:10:39 --> Config Class Initialized
+INFO - 2018-05-21 15:10:39 --> Hooks Class Initialized
+DEBUG - 2018-05-21 15:10:39 --> UTF-8 Support Enabled
+INFO - 2018-05-21 15:10:39 --> Utf8 Class Initialized
+INFO - 2018-05-21 15:10:39 --> URI Class Initialized
+INFO - 2018-05-21 15:10:39 --> Router Class Initialized
+INFO - 2018-05-21 15:10:39 --> Output Class Initialized
+INFO - 2018-05-21 15:10:39 --> Security Class Initialized
+DEBUG - 2018-05-21 15:10:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 15:10:39 --> Input Class Initialized
+INFO - 2018-05-21 15:10:39 --> Language Class Initialized
+ERROR - 2018-05-21 15:10:39 --> 404 Page Not Found: Robotstxt/index
+INFO - 2018-05-21 16:08:34 --> Config Class Initialized
+INFO - 2018-05-21 16:08:34 --> Hooks Class Initialized
+DEBUG - 2018-05-21 16:08:34 --> UTF-8 Support Enabled
+INFO - 2018-05-21 16:08:34 --> Utf8 Class Initialized
+INFO - 2018-05-21 16:08:34 --> URI Class Initialized
+DEBUG - 2018-05-21 16:08:34 --> No URI present. Default controller set.
+INFO - 2018-05-21 16:08:34 --> Router Class Initialized
+INFO - 2018-05-21 16:08:34 --> Output Class Initialized
+INFO - 2018-05-21 16:08:34 --> Security Class Initialized
+DEBUG - 2018-05-21 16:08:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 16:08:34 --> Input Class Initialized
+INFO - 2018-05-21 16:08:34 --> Language Class Initialized
+INFO - 2018-05-21 16:08:34 --> Loader Class Initialized
+DEBUG - 2018-05-21 16:08:34 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 16:08:34 --> Helper loaded: url_helper
+INFO - 2018-05-21 16:08:34 --> Helper loaded: language_helper
+INFO - 2018-05-21 16:08:34 --> Helper loaded: html_helper
+ERROR - 2018-05-21 16:08:35 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 16:08:35 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 16:08:35 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 16:08:35 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 16:08:35 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 16:08:35 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 16:08:35 --> User Agent Class Initialized
+INFO - 2018-05-21 16:08:35 --> Controller Class Initialized
+INFO - 2018-05-21 16:08:35 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 16:08:35 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 16:08:35 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 16:08:35 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 16:08:35 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 16:08:35 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 16:08:35 --> Encryption Class Initialized
+INFO - 2018-05-21 16:08:35 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 16:08:35 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 16:08:35 --> Model Class Initialized
+INFO - 2018-05-21 16:08:35 --> Helper loaded: form_helper
+INFO - 2018-05-21 16:08:35 --> Model Class Initialized
+DEBUG - 2018-05-21 16:08:35 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 16:08:35 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 16:08:35 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 16:08:35 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 16:08:35 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 16:08:35 --> Language file contains no data: language/english/content_lang.php
+ERROR - 2018-05-21 16:08:35 --> Could not find the language line "menu_aboutgreenapp"
+ERROR - 2018-05-21 16:08:35 --> Could not find the language line "menu_aboutgreenappcontent"
+INFO - 2018-05-21 16:08:35 --> File loaded: /home/greenappco/public_html/application/views/greenapp.php
+INFO - 2018-05-21 16:08:35 --> Final output sent to browser
+DEBUG - 2018-05-21 16:08:35 --> Total execution time: 0.5900
+INFO - 2018-05-21 18:21:38 --> Config Class Initialized
+INFO - 2018-05-21 18:21:39 --> Hooks Class Initialized
+DEBUG - 2018-05-21 18:21:39 --> UTF-8 Support Enabled
+INFO - 2018-05-21 18:21:39 --> Utf8 Class Initialized
+INFO - 2018-05-21 18:21:39 --> URI Class Initialized
+INFO - 2018-05-21 18:21:39 --> Router Class Initialized
+INFO - 2018-05-21 18:21:40 --> Output Class Initialized
+INFO - 2018-05-21 18:21:40 --> Security Class Initialized
+DEBUG - 2018-05-21 18:21:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 18:21:40 --> Input Class Initialized
+INFO - 2018-05-21 18:21:40 --> Language Class Initialized
+INFO - 2018-05-21 18:21:40 --> Loader Class Initialized
+DEBUG - 2018-05-21 18:21:40 --> Config file loaded: /home/greenappco/public_html/application/config/app.php
+INFO - 2018-05-21 18:21:40 --> Helper loaded: url_helper
+INFO - 2018-05-21 18:21:40 --> Helper loaded: language_helper
+INFO - 2018-05-21 18:21:40 --> Helper loaded: html_helper
+ERROR - 2018-05-21 18:21:40 --> Language file contains no data: language/english/display_lang.php
+INFO - 2018-05-21 18:21:40 --> Language file loaded: language/english/form_lang.php
+INFO - 2018-05-21 18:21:40 --> Language file loaded: language/english/menu_lang.php
+INFO - 2018-05-21 18:21:40 --> Language file loaded: language/english/slides_lang.php
+ERROR - 2018-05-21 18:21:40 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 18:21:40 --> Language file loaded: language/english/home_lang.php
+INFO - 2018-05-21 18:21:40 --> User Agent Class Initialized
+INFO - 2018-05-21 18:21:41 --> Controller Class Initialized
+INFO - 2018-05-21 18:21:41 --> Database Driver Class Initialized
+DEBUG - 2018-05-21 18:21:41 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/db_tables.php
+DEBUG - 2018-05-21 18:21:41 --> Config file loaded: /home/greenappco/public_html/application/third_party/community_auth/config/authentication.php
+INFO - 2018-05-21 18:21:41 --> Session: Class initialized using 'database' driver.
+DEBUG - 2018-05-21 18:21:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2018-05-21 18:21:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2018-05-21 18:21:41 --> Encryption Class Initialized
+INFO - 2018-05-21 18:21:41 --> Helper loaded: serialization_helper
+INFO - 2018-05-21 18:21:41 --> Helper loaded: cookie_helper
+INFO - 2018-05-21 18:21:41 --> Model Class Initialized
+INFO - 2018-05-21 18:21:41 --> Helper loaded: form_helper
+DEBUG - 2018-05-21 18:21:41 --> App_library class already loaded. Second attempt ignored.
+DEBUG - 2018-05-21 18:21:41 --> System_library class already loaded. Second attempt ignored.
+ERROR - 2018-05-21 18:21:41 --> Language file contains no data: language/english/display_lang.php
+ERROR - 2018-05-21 18:21:41 --> Language file contains no data: language/english/content_lang.php
+INFO - 2018-05-21 18:21:41 --> File loaded: /home/greenappco/public_html/application/views/login.php
+INFO - 2018-05-21 18:21:41 --> Final output sent to browser
+DEBUG - 2018-05-21 18:21:41 --> Total execution time: 3.1976
+INFO - 2018-05-21 23:19:58 --> Config Class Initialized
+INFO - 2018-05-21 23:19:58 --> Hooks Class Initialized
+DEBUG - 2018-05-21 23:19:58 --> UTF-8 Support Enabled
+INFO - 2018-05-21 23:19:58 --> Utf8 Class Initialized
+INFO - 2018-05-21 23:19:58 --> URI Class Initialized
+INFO - 2018-05-21 23:19:58 --> Router Class Initialized
+INFO - 2018-05-21 23:19:58 --> Output Class Initialized
+INFO - 2018-05-21 23:19:58 --> Security Class Initialized
+DEBUG - 2018-05-21 23:19:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-05-21 23:19:58 --> Input Class Initialized
+INFO - 2018-05-21 23:19:58 --> Language Class Initialized
+ERROR - 2018-05-21 23:19:58 --> 404 Page Not Found: Robotstxt/index
