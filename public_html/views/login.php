@@ -97,13 +97,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
           <?php  } ?>
-            <p class="m-t"> <small>Greenapp by Jap Technologies &copy; <?php echo date('Y');?></small> </p>
+            <p class="m-t"> <small>Greenapp &copy; <?php echo date('Y');?></small> </p>
         </div>
     </div>
     </div>
     <!-- Mainly scripts -->
-    <script src="<?php echo $this->config->item('resources');?>js/jquery-3.1.1.min.js"></script>
-    <script src="<?php echo $this->config->item('resources');?>js/bootstrap.min.js"></script>
+<script src="<?php echo $this->config->item('resources');?>js/jquery-3.1.1.min.js"></script>
+<script src="<?php echo $this->config->item('resources');?>js/bootstrap.min.js"></script>
 
 </body>
 

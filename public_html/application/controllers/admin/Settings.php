@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -8,28 +8,38 @@
 
 /**
  * Description of Settings
- *
- * @author test
+ * 
+ * @author Kelvin <kelvin@softwaretz.com>
  */
-class Settings extends MY_Controller {
-    //put your code here
-      public function __construct() {
+
+class Settings extends MY_Controller
+{
+    /**
+     * Put your code here
+     */
+    public function __construct()
+    {
         
         parent::__construct();
         
-         if( ! $this->require_role('admin') ){
-             redirect('app/logout'); 
-         } 
+        if (! $this->require_role('admin')) {
+            redirect('app/logout'); 
+        } 
          
-        //Load helpes
-      $this->load->helper('form');
-      $this->load->helper('admin');
-      
-      $vars['page'] = 'settings';
-      $this->load->vars($vars); 
+                //Load helpes
+            $this->load->helper('form');
+            $this->load->helper('admin');
+            
+            $vars['page'] = 'settings';
+            $this->load->vars($vars); 
     }
    
-    public function index(){
+     /**
+      * Put your code here
+      */
+
+    public function index()
+    {
         $this->data['localization'] = $this->system_model->localizations();
         $this->data['cities'] = $this->app_model->weather_cities();
         $this->data['currency'] = $this->system_model->currencies();
@@ -48,33 +58,35 @@ class Settings extends MY_Controller {
         $this->load->view('admin/profile_settings');
     }
     
-    public function settingadd(){
-        if( $this->uri->uri_string() == 'admin/settings/settingadd'){
-			show_404();
+    public function settingadd()
+    {
+        if ($this->uri->uri_string() == 'admin/settings/settingadd') {
+            show_404();
         }
         
-       if( strtolower($this->input->server('REQUEST_METHOD')) == 'post'){ 
-           $flag = $this->input->post('settings');
-               switch ($flag) {
-                   case 'addunit':
-                       $this->addunit();
-                       break;
-                   case 'modifyunit':
-                       $this->modifyunit();
-                       break;
-                   case 'deleteunit':
-                       $this->deleteunit();
-                       break;
-                   default:
-                       print 'Fail';
-                       break;
-               }
-         }
+        if (strtolower($this->input->server('REQUEST_METHOD')) == 'post') { 
+            $flag = $this->input->post('settings');
+                switch ($flag) {
+            case 'addunit':
+                $this->addunit();
+                break;
+            case 'modifyunit':
+                $this->modifyunit();
+                break;
+            case 'deleteunit':
+                $this->deleteunit();
+                break;
+            default:
+                print 'Fail';
+                break;
+                }
+        }
     }
     
-    public function appu(){
-        if( $this->uri->uri_string() == 'admin/settings/appu'){
-			show_404();
+    public function appu()
+    {
+        if ($this->uri->uri_string() == 'admin/settings/appu') {
+            show_404();
         }
         $this->data['localization'] = $this->system_model->localizations();
         $this->data['cities'] = $this->app_model->weather_cities();
@@ -85,8 +97,8 @@ class Settings extends MY_Controller {
     }
     
     public function update(){
-        if( $this->uri->uri_string() == 'admin/settings/update'){
-			show_404();
+        if ($this->uri->uri_string() == 'admin/settings/update') {
+            show_404();
         }
         
         $this->load->helper('auth');
