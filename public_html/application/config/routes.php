@@ -59,6 +59,8 @@ $route['reset'] = 'app/reset';
 /*Admin routes
  * Routes for admin
  */
+$route['admin/users/corpodetails/(:num)'] = function ($key){return 'admin/users/corpoview/'.strtolower($key);};
+$route['admin/users/corpomodify/(:num)'] = function ($key){return 'admin/users/corpoedit/'.strtolower($key);};
 
 $route['admin/financial/removecurrency'] = 'admin/financial/deletecurrency';
 

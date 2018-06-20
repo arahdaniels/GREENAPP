@@ -14,10 +14,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 
 // CI not normally available in config files
-$CI =& get_instance();
+$CI =& get_instance(); 
 
 // Load the external model for validation of passwords
-$CI->load->model('app/validation_callables');
+$CI->load->model('validation_callables');
 
 // Login ---------------------------
 $config['login_rules'] = [

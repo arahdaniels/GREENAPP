@@ -22,7 +22,7 @@ class Validation_callables extends MY_Model {
 	{
 		parent::__construct();
 
-		$this->config->load('app/password_strength');
+		$this->config->load('password_strength');
 	}
 	
 	// -----------------------------------------------------------------------

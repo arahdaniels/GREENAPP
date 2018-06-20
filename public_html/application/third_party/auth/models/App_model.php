@@ -211,7 +211,7 @@ public function units(){
 		$this->load->library('form_validation');
 
 		// Load form validation rules
-		$this->load->model('validation_callables');
+		$this->load->model('app/validation_callables');
 		$this->form_validation->set_rules([
 			[
 				'field' => 'passwd', 

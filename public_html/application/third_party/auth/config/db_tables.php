@@ -8,13 +8,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @package     Community Auth
  * @author      Robert B Gottier
- * @copyright   Copyright (c) 2011 - 2017, Robert B Gottier. (http://brianswebdesign.com/)
+ * @copyright   Copyright (c) 2011 - 2018, Robert B Gottier. (http://brianswebdesign.com/)
  * @license     BSD - http://www.opensource.org/licenses/BSD-3-Clause
  * @link        http://community-auth.com
  */
 
 // USER RELATED TABLES
-$config['user_table']                   = 'users';
+$config['user_table'] = 'users';
+
 
 // LOGIN ERROR RELATED TABLES
 $config['errors_table']                 = 'login_errors';

@@ -11,3 +11,6 @@ $config['resources'] = 'https://greenapp.co.tz/resources/';
 //Langauages
 $config['languages'] = array('display','form','menu','slides','content','home');
 
+// tables
+$config['companies_table'] = 'kelly_companies';
+$config['company_types_table'] = 'kelly_business_types';

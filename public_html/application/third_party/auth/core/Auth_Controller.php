@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+ 
 /**
  * Community Auth - Auth Controller
  *
@@ -52,7 +52,7 @@ class Auth_Controller extends CI_Controller {
      *
      * @var string
      * @access public
-     */
+     */  
     public $auth_email;
 
 	/**
@@ -128,7 +128,7 @@ class Auth_Controller extends CI_Controller {
 	//	$this->output->enable_profiler();
                 
                 //Force https
-                $this->apps->force_ssl();
+                $this->force_ssl();
 	}
 
 	// --------------------------------------------------------------
@@ -144,7 +144,7 @@ class Auth_Controller extends CI_Controller {
 	 */
 	protected function _load_dependencies()
 	{
-		$this->load->add_package_path(APPPATH . 'third_party/community_auth/');
+		$this->load->add_package_path(APPPATH . 'third_party/auth/');
 		$this->load->database();
 		$this->config->load('db_tables');
 		$this->config->load('authentication');
@@ -152,7 +152,7 @@ class Auth_Controller extends CI_Controller {
 			'session','tokens','Authentication'
 		])->helper([
 			'serialization','cookie'
-		])->model('auth_model');
+		])->model(['auth_model','my_auth_model']);
 		if(config_item('declared_auth_model') != 'auth_model')
 			$this->load->model(config_item('declared_auth_model'));
 	}

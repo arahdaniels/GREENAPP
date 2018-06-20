@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
                <a href="<?php echo base_url('reset');?>"><small>Forgot password?</small></a><br/>&nbsp;<br/>
-                <a class="btn btn-lg btn-danger btn-block " href="<?php echo base_url('signup');?>">Create an account</a>
+                <a class="btn btn-md btn-danger btn-block " href="<?php echo base_url('signup');?>">Create an account</a>
            <?php echo form_close();
             }else{ ?>
              <div class="row">

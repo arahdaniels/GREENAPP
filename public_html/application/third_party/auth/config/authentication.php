@@ -31,7 +31,9 @@ $config['levels_and_roles'] = [
 	'1' => 'customer',
         '3' => 'client',
 	'6' => 'expert',
-	'9' => 'admin'
+        '7' => 'corporate',
+        '8' => 'admin',
+	'9' => 'super'
 ];
 
 /*
@@ -179,7 +181,7 @@ $config['encrypt_all_cookies'] = TRUE;
 |
 */
 
-$config['allow_remember_me'] = FALSE;
+$config['allow_remember_me'] = TRUE;
 
 /*
 | -----------------------------------------------------------------
@@ -190,7 +192,7 @@ $config['allow_remember_me'] = FALSE;
 |
 */
 
-$config['remember_me_cookie_name'] = 'rememberMe';
+$config['remember_me_cookie_name'] = 'nikumbuke';
 
 /*
 | -----------------------------------------------------------------
@@ -214,7 +216,7 @@ $config['remember_me_expiration'] = 93062220;
 |
 */
 
-$config['http_user_cookie_name'] = 'httpUser';
+$config['http_user_cookie_name'] = 'kelly_';
 
 /*
 | -----------------------------------------------------------------
@@ -230,7 +232,7 @@ $config['http_user_cookie_name'] = 'httpUser';
 |
 */
 
-$config['http_user_cookie_elements'] = ['username'];
+$config['http_user_cookie_elements'] = ['Kelly__'];
 
 /*
 | -----------------------------------------------------------------
@@ -245,10 +247,10 @@ $config['http_user_cookie_elements'] = ['username'];
 |
 */
 
-$config['http_tokens_cookie']  = 'httpTokens';
-$config['https_tokens_cookie'] = 'httpsTokens';
+$config['http_tokens_cookie']  = 'kelly_tokens';
+$config['https_tokens_cookie'] = 'kelly_tokens';
 $config['token_jar_size']      = 32;
-$config['token_name']          = 'token';
+$config['token_name']          = 'kelly';
 
 /*
 | -----------------------------------------------------------------
@@ -331,7 +333,7 @@ $config['redirect_to_https'] = TRUE;
 | Make sure to remove any file extension, as this string is passed to config->load().
 */
 
-$config['login_form_validation_file'] = 'form_validation/app/login';
+$config['login_form_validation_file'] = 'login';
 
 /*
 | -----------------------------------------------------------------
@@ -357,7 +359,7 @@ $config['declared_auth_model'] = 'auth_model';
 #
 # If you do have a cron to handle garbage collection, set 
 # this setting to FALSE.
-#
+# 
 # Example cron to run once every 10 minutes:
 #     */10 * * * * php /path/to/project/index.php crons auth_sessions_gc > /dev/null 2>&1
 #
@@ -368,5 +370,5 @@ $config['declared_auth_model'] = 'auth_model';
 $config['auth_sessions_gc_on_logout'] = TRUE;
 
 
-/* End of file authentication.php */
+/* End of file authentication.php */ 
 /* Location: /community_auth/config/authentication.php */

@@ -1,6 +1,4 @@
 <?php include('header.php');?>
-    <link href="<?php echo $this->config->item('resources');?>css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="<?php echo $this->config->item('resources');?>css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
         <div class="wrapper wrapper-content">
             <div class="container">
                  <div class="row  border-bottom bg-primary page-heading" style="margin-bottom: 30px;">
@@ -20,14 +18,7 @@
                 </div>
                 <div class="col-lg-2"></div>
             </div>
-            <?php 
-            $profil['resource_url'] = $this->config->item('resources');
-            $profil['firstname'] = $profile->firstname;
-            $profil['middlename'] = $profile->middlename;
-            $profil['lastname'] = $profile->lastname;
-            $profil['about'] = $profile->about;
-            $profil['auth_role'] = $auth_role;
-            profile_header($profil);?>
+            <?php  profile_header();?>
             <div class="row">
                 <div class="col-lg-3">
                     <div class="ibox">
@@ -73,7 +64,7 @@
                                     <div class="col-sm-4 col-sm-offset-2">
                                         <button class="btn btn-primary" type="submit">Save changes</button>
                                     </div>
-                                </div>
+                                </div> 
                             <?php echo form_close();?>
                                 </div>
                             </div>

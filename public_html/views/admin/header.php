@@ -51,11 +51,11 @@
                     <li class="<?php if( ! empty($page) && $page == 'dashboard') echo 'active';?>"> 
                         <a href="<?php echo base_url();?>"> <?php echo lang('menu_dashboard');?> </a>
                     </li> 
-                    <li class="dropdown <?php if( ! empty($page) && $page == 'market') echo 'active';?>">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> <?php echo lang('menu_marketplace');?> </a>
+                    <li class="dropdown <?php if( ! empty($page) && $page == 'users') echo 'active';?>">
+                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> <?php echo lang('menu_users');?> </a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="<?php echo base_url('admin/market');?>"><?php echo lang('menu_mymarket');?></a></li>
-                            <li><a href="<?php echo base_url('admin/market/manage');?>"><?php echo lang('menu_manageshops');?></a></li>
+                            <li><a href="<?php echo base_url('admin/users/corporates');?>"><?php echo lang('menu_corporates');?></a></li>
+                            <li><a href="<?php echo base_url('admin/users/clients');?>"><?php echo lang('menu_clients');?></a></li>
                         </ul>
                     </li> 
                     <li class="dropdown <?php if( ! empty($page) && $page == 'agriculture') echo 'active';?>" >
@@ -103,12 +103,12 @@
                         </ul>
                     </li>
                     <li class="dropdown <?php if( ! empty($page) && $page == 'profile') echo 'active';?>">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle"  data-toggle="dropdown"><i class="fa fa-user-circle-o"></i> <?php echo $auth_username;?> </a>
+                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle"  data-toggle="dropdown"><i class="fa fa-user-circle-o"></i> <?php echo ucfirst($profile_data->firstname);?> </a>
                         <ul role="menu" class="dropdown-menu">
                            <!-- <li><a href="<?php echo base_url('admin/overview');?>"><?php echo lang('menu_overview');?></a></li>-->
                             <li><a href="<?php echo base_url('admin/settings');?>"><?php echo lang('menu_settings');?></a></li>
                             <li>
-                                <a href="<?php echo base_url('logout');?>">
+                                <a href="<?php echo base_url('logout');?>"> 
                                     <i class="fa fa-sign-out"></i> Log out
                                 </a>
                             </li>

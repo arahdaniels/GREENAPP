@@ -34,10 +34,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-md-12">
                 <div class="ibox-content">
                     <div class="row">
-
+                        <div class="col-sm-12 img-container">
+                            <img src="<?php echo $this->config->item('resources');?>/img/smalllogo.png" />
+                          </div>
+                        <div class="clearfix"></div><br/>
                         <div class="col-lg-12">
                             <h2><strong>Account Recovery</strong></h2>
-
                                 <?php
                                 if( isset( $disabled ) )
                                 {
@@ -153,19 +155,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                                                 ?>
 
                                                                         </div>
-                                                                        <div class="form-group">
+                                                                        <div class="form-group"> 
 
                                                                                         <?php
                                                                                                 // SUBMIT BUTTON **************************************************************
                                                                                                 $input_data = [
                                                                                                         'name'  => 'submit',
-                                                                                                        'class' => 'btn btn-success',
+                                                                                                        'class' => 'btn btn-success pull-right',
                                                                                                         'id'    => 'submit_button',
                                                                                                         'value' => 'Send Email'
                                                                                                 ];
                                                                                                 echo form_submit($input_data);
                                                                                         ?>
-
+                                                                                    <a class="btn btn-warning pull-left" href="<?php echo base_url('app/logout');?>">Cancel</a>
                                                                                 </div>
                                                                         
                                                                 </fieldset>

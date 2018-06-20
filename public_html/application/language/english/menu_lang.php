@@ -6,6 +6,19 @@
  * and open the template in the editor.
  */
 // new data language
+$lang['menu_corporate'] = 'Corporate';
+$lang['menu_companyclients'] = 'Company Clients';
+$lang['menu_companyname'] = 'Company Name';
+$lang['menu_companytype'] = 'Company Type';
+$lang['menu_companyphone'] = 'Company Phone';
+$lang['menu_companyname'] = 'Company Name';
+$lang['menu_corporates'] = 'Corporates';
+$lang['menu_corporateregistration'] = 'Corporate registration';
+$lang['menu_corporateinformation'] = 'Corporate information';
+$lang['menu_corporateupdate'] = 'Corporate Update';
+$lang['menu_users'] = 'Users';
+$lang['menu_corporate_registration'] = 'Corporate Registration';
+$lang['menu_clients'] = 'Clients';
 $lang['menu_lease'] = 'Lease';
 $lang['menu_usage'] = 'Usage';
 $lang['menu_cropprocessing'] = 'Crop Processing';
