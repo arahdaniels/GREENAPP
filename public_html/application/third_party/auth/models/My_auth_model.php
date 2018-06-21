@@ -70,6 +70,20 @@ class My_auth_model extends Auth_model {
     return $query->row();    
   }
   
+  public function _get_client_profile($user_id) {
+    $this->db->select('*');
+    $this->db->where('user_id', $user_id);
+    $query = $this->db->get( config_item('user_table'));
+    return $query->row();    
+  }
+  
+  public function _get_admin_profile($user_id) {
+    $this->db->select('*');
+    $this->db->where('user_id', $user_id);
+    $query = $this->db->get( config_item('user_table'));
+    return $query->row();    
+  }
+  
   public function _get_corporate_profile($user_id) {
     $this->db->select('*');
     $this->db->where('user_id', $user_id);

@@ -110,8 +110,7 @@
             <?php  ?>
         </div>
 <?php include('footer.php');?>
- <script>
-    
+ <script>     
      $(document).ready(function() { 
      });
 </script>

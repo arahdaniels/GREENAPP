@@ -25,7 +25,9 @@ class App extends MY_Controller
 		}
 	}
 	
-        
+        public function error404() {
+            $this->load->view('auth/error404');
+        }
         
 	public function login()
 	{
@@ -264,10 +266,6 @@ class App extends MY_Controller
         } else {
             header("Location: " . base_url());
         }    
-    }
-    
-    public function error404() {
-        $this->load->view('auth/error404',['title'=>'Page Not Found | Hisazangu']);
     }
     
     public function createaccount()

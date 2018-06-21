@@ -162,11 +162,13 @@ $route['client/field/details/(:num)'] = function ($key){return 'client/agricultu
 
 $route['client/market/manage'] = 'client/market/manageshops';
 
+$route['app/error'] = 'app/error404';
+
 $route['client/videos'] = 'client/education/videos';
 $route['client/vdetails/(:num)'] = function ($key){return 'client/education/videodetails/'.strtolower($key);};
 
 $route['client/categoryvideos/(:num)'] = function ($key){return 'client/education/categoryvideos/'.strtolower($key);};
 
 
-$route['404_override'] = '';
+$route['404_override'] = 'error404';
 $route['translate_uri_dashes'] = FALSE;

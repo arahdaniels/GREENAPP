@@ -48,5 +48,11 @@ class Corporate_model extends MY_Model {
         return ($sql->num_rows()>0)? $sql->result_array() : TRUE;
     }
     
+    public function branches() {  
+        $this->db->select('*, COUNT(`user_id`) as clients');
+        $this->db->join(config_item('users_branches_table').' as ub','ub.branch_key='.config_item('branches_table').'.branch_key','both');
+        $sql = $this->db->get(config_item('branches_table'));
+        return ($sql->num_rows()>0)? $sql->result_array() : TRUE;
+    }
     
 }

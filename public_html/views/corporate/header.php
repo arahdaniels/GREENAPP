@@ -72,6 +72,20 @@
                         <li class="<?php if( isset($link2) && $link2 == 'overview') echo 'active';?>"><a href="<?php echo base_url('corporate/clients');?>">Overview</a></li>
                     </ul>
                 </li>
+                <li class="<?php if( isset($link1) && $link1 == 'users') echo 'active';?>">
+                    <a href="javascript:(0);"><i class="fa fa-user-o"></i> <span class="nav-label">Users</span> <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li class="<?php if( isset($link2) && $link2 == 'overview') echo 'active';?>"><a href="<?php echo base_url('corporate/users');?>">Overview</a></li>
+                        <li class="<?php if( isset($link2) && $link2 == 'register') echo 'active';?>"><a href="<?php echo base_url('corporate/users/register');?>">Register</a></li>
+                    </ul>
+                </li>
+                <li class="<?php if( isset($link1) && $link1 == 'branches') echo 'active';?>">
+                    <a href="javascript:(0);"><i class="fa fa-tree"></i> <span class="nav-label">Branches</span> <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li class="<?php if( isset($link2) && $link2 == 'overview') echo 'active';?>"><a href="<?php echo base_url('corporate/branches');?>">Overview</a></li>
+                        <li class="<?php if( isset($link2) && $link2 == 'register') echo 'active';?>"><a href="<?php echo base_url('corporate/branches/register');?>">Register</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>

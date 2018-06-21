@@ -13,4 +13,6 @@ $config['languages'] = array('display','form','menu','slides','content','home');
 
 // tables
 $config['companies_table'] = 'kelly_companies';
+$config['branches_table'] = 'kelly_branches';
+$config['users_branches_table'] = 'kelly_users_branches';
 $config['company_types_table'] = 'kelly_business_types';

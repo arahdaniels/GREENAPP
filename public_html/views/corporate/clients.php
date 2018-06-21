@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<link href="<?php echo $this->config->item('resources');?>css/plugins/dataTables/datatables.min.css" rel="stylesheet">
 <div class="wrapper wrapper-content">
         <div class="row">
                     <div class="col-lg-3">
@@ -55,18 +56,20 @@
             </div>
         </div>
     <div class="row">
-        <div class="col-sm-12">
-            <div class="table-responsive">
-                <table id="clients-list" class="table table-striped table-bordered table-hover dataTables-example" >
-              <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Branch</th>
-                  <th>Contact</th>
-                  <th style="width:100px;"><?php echo lang('menu_options');?></th>
-              </tr>
-              </thead>
-              <tbody>
+        <div class="col-sm-12 ">
+            <div class="ibox">
+              <div class="ibox-content">
+                <div class="table-responsive">
+                    <table id="clients-list" class="table table-striped table-bordered table-hover" >
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Branch</th>
+                        <th>Contact</th>
+                        <th style="width:100px;"><?php echo lang('menu_options');?></th>
+                    </tr>
+                    </thead>
+                    <tbody>
                   <?php if( !empty($clients)):
                           foreach ($clients as $key => $row) { ?>
                               <tr class="gradeX">
@@ -77,16 +80,20 @@
                               </tr>
                          <?php  }
                   endif; ?>
-              </table>
-          </div>
+              
+                </table>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
                 </div>
        <?php include 'footer.php';?>
+<script src="<?php echo $this->config->item('resources');?>js/plugins/dataTables/datatables.min.js"></script>
     <script>
         $(document).ready(function() {
              $('#clients-list').DataTable({
-                pageLength: 25,
+                pageLength: 10,
                 responsive: true,
                 dom: '<"html5buttons"B>lTfgitp',
                 buttons: [
